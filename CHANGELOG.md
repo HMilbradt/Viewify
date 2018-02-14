@@ -10,7 +10,13 @@ The following guidelines must be adhered to when updating the changelog:
 
 ## Changlog Entries
 
-### Created Changelog and updated Readme
+### 0.1 - Created Changelog and updated Readme
 Feb 14, 2018
 - Created a changelog
 - Updated readme.
+
+### 0.02 - Added tasks model and autoloaded it
+Feb 14, 2018
+- Created /models/tasks.php
+- Pointed tasks to tasks.csv
+- Added tasks to autoload
