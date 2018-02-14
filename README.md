@@ -1,5 +1,11 @@
-# starter-todo
-Starter project for COMP4711 lab 5, Fall 2017
+# Viewify
 
-It "works" out of the box, sort of, but needs beefing up :(
-Your job is to fix it, per lab 5 directions :)
+This is the official repoository for our 5th CodeIgniter lab!
+
+## Rules
+Make sure you check out the Changelog for rules on submission documentation.
+
+- All commits must be signed.
+- All PR's must be documented in the changelog.
+- Code must be commented.
+- Have fun 😁
