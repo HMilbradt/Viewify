@@ -20,3 +20,10 @@ Feb 14, 2018
 - Created /models/tasks.php
 - Pointed tasks to tasks.csv
 - Added tasks to autoload
+
+### 0.04 - Added maintenance page
+Feb 14, 2018
+- Created /views/itemlist.php
+- Created /views/oneitem.php
+- Create /controllers/Mtce.php
+- Changed links
