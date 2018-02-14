@@ -17,7 +17,8 @@ class Views extends Application
         $this->render('template_secondary');
     }
 
-    function makePrioritizedPanel($tasks) {
+    function makePrioritizedPanel($tasks)
+    {
 
         // extract the undone tasks
         foreach ($tasks as $task)
@@ -44,6 +45,12 @@ class Views extends Application
         // and then pass them on
         $parms = ['display_tasks' => $converted];
         return $this->parser->parse('by_priority', $parms, true);
+    }
+
+    function makeCategorizedPanel($tasks)
+    {
+        $parms = ['display_tasks' => $this->tasks->getCategorizedTasks()];
+        return $this->parser->parse('by_category', $parms, true);
     }
 }
 
