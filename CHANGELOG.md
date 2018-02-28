@@ -27,3 +27,27 @@ Feb 14, 2018
 - Created /views/oneitem.php
 - Create /controllers/Mtce.php
 - Changed links
+
+### 0.06 - Pagination
+Feb 28, 2018
+- Created pagination in controller
+- Created views fragments for pagination
+
+### 0.07 - User Roles
+Feb 28, 2018
+- Added user role validation
+
+### 0.08 - Add completion to homepage
+Feb 28, 2018
+- Enabled completion of takss from homepage
+
+### 0.09 - Beef up maintenance page
+Feb 28, 2018
+- User specific maintenance
+- Adde edit when owner
+
+### 0.10 - Added utem maintenance
+Feb 28, 2018
+- Add items
+- edit items
+- remove items
