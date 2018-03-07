@@ -2,10 +2,30 @@
 
 class Tasks extends CSV_Model {
 
+    public $id;
+    public $name;
+    public $color;
+    public $weight;
+    public $picker;
+
     public function __construct()
     {
             parent::__construct(APPPATH . '../data/tasks.csv', 'id');
     }
+
+    public function lessCompletedThanIncomplete() {
+
+        $complete = 0;
+        $incomplete = 0;
+
+        foreach ($this->tasks->all() as $task) {
+
+            ($task->status == 0) ? $incomplete++ : $complete++;
+        }
+
+        return $complete < $incomplete;
+    }
+
 
     function getCategorizedTasks()
     {
