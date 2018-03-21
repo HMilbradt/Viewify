@@ -39,14 +39,14 @@ Feb 28, 2018
 
 ### 0.08 - Add completion to homepage
 Feb 28, 2018
-- Enabled completion of takss from homepage
+- Enabled completion of tasks from homepage
 
 ### 0.09 - Beef up maintenance page
 Feb 28, 2018
 - User specific maintenance
 - Adde edit when owner
 
-### 0.10 - Added utem maintenance
+### 0.10 - Added item maintenance
 Feb 28, 2018
 - Add items
 - edit items
@@ -57,3 +57,8 @@ Feb 28, 2018
 - create task.xml
 - add initial schema
 - add half a dozen items
+
+### 0.12 - Tasks now load from XML file
+Feb 28, 2018
+- fixed task.xml tag matching
+- overrode Tasks.php load function to load from xml

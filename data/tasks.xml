@@ -52,7 +52,7 @@
     </task>
     <task>
         <id>7</id>
-        <name>Canucks hockey game</task>
+        <name>Canucks hockey game</name>
         <priority>3</priority>
         <size>3</size>
         <group>4</group>
