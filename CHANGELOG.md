@@ -51,3 +51,9 @@ Feb 28, 2018
 - Add items
 - edit items
 - remove items
+
+### 0.11 - Added task.xml
+Feb 28, 2018
+- create task.xml
+- add initial schema
+- add half a dozen items
