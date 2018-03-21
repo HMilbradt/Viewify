@@ -27,7 +27,7 @@
         <size>2</size>
         <group>1</group>
         <deadline></deadline>
-        <status></status>
+        <status>1</status>
         <flag></flag>
     </task>
     <task>
@@ -37,7 +37,7 @@
         <size>2</size>
         <group>1</group>
         <deadline></deadline>
-        <status></status>
+        <status>1</status>
         <flag></flag>
     </task>
     <task>
@@ -47,7 +47,7 @@
         <size>2</size>
         <group>4</group>
         <deadline></deadline>
-        <status></status>
+        <status>1</status>
         <flag></flag>
     </task>
     <task>
