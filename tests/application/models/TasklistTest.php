@@ -19,6 +19,6 @@ class TaskListTest  extends TestCase {
             ($task->status == 0) ? $incomplete++ : $complete++;
         }
 
-        $this->assertEquals(true, $complete < $incomplete);
+        $this->assertEquals(true, $complete > $incomplete);
     }
 }
