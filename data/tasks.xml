@@ -27,7 +27,7 @@
         <size>2</size>
         <group>1</group>
         <deadline></deadline>
-        <status></status>
+        <status>1</status>
         <flag></flag>
     </task>
     <task>
@@ -37,7 +37,7 @@
         <size>2</size>
         <group>1</group>
         <deadline></deadline>
-        <status></status>
+        <status>1</status>
         <flag></flag>
     </task>
     <task>
@@ -47,12 +47,12 @@
         <size>2</size>
         <group>4</group>
         <deadline></deadline>
-        <status></status>
+        <status>1</status>
         <flag></flag>
     </task>
     <task>
         <id>7</id>
-        <name>Canucks hockey game</task>
+        <name>Canucks hockey game</name>
         <priority>3</priority>
         <size>3</size>
         <group>4</group>
