@@ -20,7 +20,7 @@ class Tasks extends XML_Model {
 			foreach ($tasks as $task) {
 				$record = new stdClass();
 				$record->id = (int) $task->id;
-				$record->name = (string) $task->task;
+				$record->task = (string) $task->task;
 				$record->priority = (int) $task->priority;
 				$record->size = (int) $task->size;
 				$record->group = (int) $task->group;
