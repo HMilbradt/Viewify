@@ -2,7 +2,7 @@
 
 /**
  * XML-persisted collection.
- * 
+ *
  * @author Ian Park
  * ------------------------------------------------------------------------
  */
@@ -46,29 +46,6 @@ class XML_Model extends Memory_Model
 	 */
 	protected function load()
 	{
-
-		/*
-		if (($tasks = simplexml_load_file($this->_origin)) !== FALSE)
-		{
-			foreach ($tasks as $task) {
-				$record = new stdClass();
-				$record->id = (int) $task->id;
-				$record->task = (string) $task->task;
-				$record->priority = (int) $task->priority;
-				$record->size = (int) $task->size;
-				$record->group = (int) $task->group;
-				$record->deadline = (string) $task->deadline;
-				$record->status = (int) $task->status;
-				$record->flag = (int) $task->flag;
-
-				$this->_data[$record->id] = $record;
-			}
-		}
-
-		// rebuild the keys table
-		$this->reindex();
-
-		*/
 		if (file_exists(realpath($this->_origin))) {
 
 		    $this->xml = simplexml_load_file(realpath($this->_origin));
@@ -80,7 +57,7 @@ class XML_Model extends Memory_Model
 
 		    $xmlarray =$this->xml;
 
-		    //if it is empty; 
+		    //if it is empty;
 		    if(empty($xmlarray)) {
 		    	return;
 		    }
@@ -92,7 +69,7 @@ class XML_Model extends Memory_Model
 		    $keyfieldh = array();
 		    $first = true;
 
-		    //if it is empty; 
+		    //if it is empty;
 		    if(empty($xmlcontent)) {
 		    	return;
 		    }
@@ -102,12 +79,12 @@ class XML_Model extends Memory_Model
 		    foreach ($xmlcontent as $oj) {
 		    	if($first){
 			    	foreach ($oj as $key => $value) {
-			    		$keyfieldh[] = $key;	
+			    		$keyfieldh[] = $key;
 			    		//var_dump((string)$value);
 			    	}
 			    	$this->_fields = $keyfieldh;
 			    }
-		    	$first = false; 
+		    	$first = false;
 
 		    	//var_dump($oj->children());
 		    	$one = new stdClass();
@@ -116,8 +93,8 @@ class XML_Model extends Memory_Model
 		    	foreach ($oj as $key => $value) {
 		    		$one->$key = (string)$value;
 		    	}
-		    	$this->_data[$dataindex++] =$one; 
-		    }	
+		    	$this->_data[$dataindex++] =$one;
+		    }
 
 
 		 	//var_dump($this->_data);

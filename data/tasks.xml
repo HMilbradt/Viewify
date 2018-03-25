@@ -1,63 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <tasks>
-    <task>
-        <id>1</id>
-        <name>COMP1234 assignment</name>
-        <priority>3</priority>
-        <size>2</size>
-        <group>2</group>
-        <deadline>20170219</deadline>
-        <status>2</status>
-        <flag></flag>
-    </task>
-    <task>
-        <id>2</id>
-        <name>Mow the lawn</name>
-        <priority>2</priority>
-        <size>2</size>
-        <group>1</group>
-        <deadline></deadline>
-        <status>2</status>
-        <flag></flag>
-    </task>
-    <task>
-        <id>3</id>
-        <name>Wash the car</name>
-        <priority>2</priority>
-        <size>2</size>
-        <group>1</group>
-        <deadline></deadline>
-        <status>1</status>
-        <flag></flag>
-    </task>
-    <task>
-        <id>4</id>
-        <name>Paint the fence</name>
-        <priority>1</priority>
-        <size>2</size>
-        <group>1</group>
-        <deadline></deadline>
-        <status>1</status>
-        <flag></flag>
-    </task>
-    <task>
-        <id>6</id>
-        <name>Intramural hockey game</name>
-        <priority>1</priority>
-        <size>2</size>
-        <group>4</group>
-        <deadline></deadline>
-        <status>1</status>
-        <flag></flag>
-    </task>
-    <task>
-        <id>7</id>
-        <name>Canucks hockey game</name>
-        <priority>3</priority>
-        <size>3</size>
-        <group>4</group>
-        <deadline>20170305</deadline>
-        <status>2</status>
-        <flag></flag>
-    </task>
+  <task>
+    <id>1</id>
+    <task>COMP1234 assignment</task>
+    <priority>3</priority>
+    <size>2</size>
+    <group>2</group>
+    <deadline>20170219</deadline>
+    <status>2</status>
+    <flag/>
+  </task>
+  <task>
+    <id>2</id>
+    <task>Mow the lawn</task>
+    <priority>2</priority>
+    <size>2</size>
+    <group>1</group>
+    <deadline/>
+    <status>2</status>
+    <flag/>
+  </task>
+  <task>
+    <id>3</id>
+    <task>Wash the car</task>
+    <priority>2</priority>
+    <size>2</size>
+    <group>1</group>
+    <deadline/>
+    <status>1</status>
+    <flag/>
+  </task>
+  <task>
+    <id>4</id>
+    <task>Paint the fence</task>
+    <priority>1</priority>
+    <size>2</size>
+    <group>1</group>
+    <deadline/>
+    <status>1</status>
+    <flag/>
+  </task>
+  <task>
+    <id>6</id>
+    <task>Intramural hockey game</task>
+    <priority>1</priority>
+    <size>2</size>
+    <group>4</group>
+    <deadline/>
+    <status>1</status>
+    <flag/>
+  </task>
 </tasks>
